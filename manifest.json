@@ -24,7 +24,7 @@
                   "details-level": "full",
                   "method": "get",
                   "trigger-id": "gateways-details-pane",
-                  "url": "sce_dev.htm"
+                  "url": "sce_dev.html"
           }
         }
       }
