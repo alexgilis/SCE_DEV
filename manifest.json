@@ -5,7 +5,7 @@
         "description": "Try",
         "author": "doesn't matter",
         "email": "sce@local",
-        "product-url": "https://community.checkpoint.com/t5/SmartConsole-Extensions/SmartConsole-Extension-Remote-Access-VPN-Statistics/m-p/81579",
+        "product-url": "https://github.com/alexgilis/SCE_DEV",
         "provider": "github",
         "license": "MIT",
         "extension-version-requirements": {
