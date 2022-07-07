@@ -1,0 +1,12 @@
+{
+    "extension": {
+        "name": "SCE_DEV",
+        "description": "SCE Development environment",
+        "product-url": "https://github.com/alexgilis/SCE_DEV/",
+        "provider": "CP world",
+        "version": "Beta",
+        "extension-version-requirements": {
+            "minimum-version": "1.2"
+        }
+    }
+}
