@@ -1,35 +1,35 @@
 {
-    "extension": {
-        "name": "SCE_DEV",
-        "version": "0.1",
-        "description": "Try",
-        "author": "doesn't matter",
-        "email": "sce@local",
-        "product-url": "https://github.com/alexgilis/SCE_DEV",
-        "provider": "github",
-        "license": "MIT",
-        "extension-version-requirements": {
-            "minimum-version": "1.2"
-      }
-    },
-    "locations": [
-      {
-          "location": "details-pane",
-          "relevant-types": ["gateways"],
-          "ui-element": {
-              "type": "tab",
-              "caption": "VPN Users",
-              "tooltip": "Display VPN Users",
-              "action": {
-                  "details-level": "full",
-                  "method": "get",
-                  "trigger-id": "gateways-details-pane",
-                  "url": "sce_dev.html"
-          }
+  "extension": {
+	  "name": "Show Remote Access VPN Users",
+	  "version": "0.1",
+	  "description": "A SmartConsole Extension to show VPN Users in a separate tab",
+	  "author": "Danny Jung",
+	  "email": "cp@dannyjung.de",
+	  "product-url": "https://community.checkpoint.com/t5/SmartConsole-Extensions/SmartConsole-Extension-Remote-Access-VPN-Statistics/m-p/81579",
+	  "provider": "dannyjung.de",
+	  "license": "GPL",
+	  "extension-version-requirements": {
+		  "minimum-version": "1.2"
+    }
+  },
+  "locations": [
+    {
+		"location": "details-pane",
+		"relevant-types": ["gateways"],
+		"ui-element": {
+			"type": "tab",
+			"caption": "VPN Users",
+			"tooltip": "Display VPN Users",
+			"action": {
+				"details-level": "full",
+				"method": "get",
+				"trigger-id": "gateways-details-pane",
+				"url": "vpnuser.htm"
         }
       }
-    ],
-      "requested-permissions": {
-          "client": ["get-read-only-session", "run-read-only-commands"]
     }
+  ],
+	"requested-permissions": {
+		"client": ["get-read-only-session", "run-read-only-commands"]
   }
+}
